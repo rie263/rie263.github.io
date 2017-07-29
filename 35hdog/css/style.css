@@ -119,7 +119,7 @@
 	float: left;
 	border-radius: 20px; 
 	padding: 22px 33px 22px 33px;
-	margin: 16px 10px;
+	margin: 10px 16px 100px 16px;
 }
 
 .orange-box2{
@@ -157,18 +157,24 @@
 }
 */
 .letter{
-	width: 50%
-	color: #7ec3d8;
-	font-size: 20px;
-	font-weight: 800;
-
-}
-
-.letter2{
 	color: #7ec3d8;
 	font-size: 36px;
 	font-weight: 800;
 }
+
+.letter2{
+	color: #7ec3d8;
+	font-size: 30px;
+	font-weight: 800;
+}
+.letter3{
+	width: 100%;
+	/*color: #7ec3d8;*/
+	font-size: 20px;
+	/*font-weight: 800;*/
+
+}
+
 
 
 .look{
@@ -266,19 +272,19 @@
 }
 
 .Natsumi_photo{
-	height: 264px;
+	height: 260px;
 }
 
 
 .Natsumi_photo:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
   
 }
 
 .profile_container-box1{
 	height: 300px;
 	background-color: #fafad2;
-	margin: 0 20px 30px;
+	margin: 0px 20px 30px;
 	text-align: center;
 	border-radius: 50px; 
 	display: none;
@@ -307,7 +313,7 @@
 
 
 .Tomoko_photo:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
   
 }
 
@@ -337,12 +343,12 @@
 
 .Sakura_photo{
 /*	width: auto;*/
-	height: 264px;
+	height: 260px;
 }
 
 
 .Sakura_photo:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
   
 }
 
@@ -374,12 +380,12 @@
 }
 
 .Nobuko_photo{
-	height: 264px;
+	height: 260px;
 }
 
 
 .Nobuko_photo:hover{
-	transform: scale(1.2); 
+	transform: scale(1.1); 
 }
 
 .profile_container-box4{
@@ -415,7 +421,7 @@
 
 
 .Rie_photo:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
   
 }
 
@@ -451,7 +457,7 @@
 }
 
 .Shizuka_photo:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .profile_container-box6{
@@ -724,6 +730,11 @@ small{
 		height: auto;
 	}
 
+
+	.orange-box1, .orange-box2, .orange-box3{
+		margin: 10px 100px 10px 16px;
+    }
+
 	.longbox{
 		width: 70%;
 		height: 380px;
@@ -860,6 +871,11 @@ small{
 	}
 	
 
+ 	.look{
+		height: 700px;
+ 	}
+
+
 	.look_top{
 		font-size: 20px;
 	}
@@ -950,6 +966,11 @@ small{
 	
 	}
 
+	#container{
+		width: 80%;
+		height: 50%;		
+	}
+
 	.access{
 		width: 100%;
 		height: auto;
@@ -965,17 +986,24 @@ small{
 	     margin: 0 auto;
 
 	}
+
+
+ 	.look{
+		height: 400px;
+ 	}
+
 	.longbox{
 		width: 100%;
 		margin: 0;
 		height: 250px;
 	}
 
-    .letter{   
-    	font-size: 30px;
+    .letter3{
+    	width: 100%;
+    	font-size: 16px;
     }
 
-	.letter2{
+	.letter{
 		font-size: 24px;
  	}
 
@@ -1057,7 +1085,7 @@ small{
 
 @media (max-width: 375px){
 	.longbox{
-		height: 350px;
+		height: 300px;
 	
 	}
 
@@ -1068,11 +1096,11 @@ small{
 
 @media (max-width: 360px){
 
-	.letter2{
+	.letter{
 		font-size: 24px;
  	}
  	.longbox{
-		height: 300px;
+		height: 320px;
 	
 	}
 }
